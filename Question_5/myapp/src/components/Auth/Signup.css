@@ -1,0 +1,71 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/b0a68b86128681.5d909dad4eb86.jpg');
+    background-size: cover;
+    filter: saturate(0.5);
+  }
+  
+  .signup-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/b0a68b86128681.5d909dad4eb86.jpg');
+    background-size: cover;
+    filter: saturate(0.5);
+    z-index: -1;
+  }
+  
+  .signup-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .signup-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: relative;
+  }
+  
+  .signup-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 15px;
+    color: #888;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
